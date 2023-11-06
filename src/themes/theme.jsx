@@ -45,8 +45,8 @@ const theme = createTheme({
       },
       styleOverrides: {
         root: {
-          width: "77px",
           height: "30px",
+          padding: "0px 16px",
         },
       },
       variants: [
@@ -68,7 +68,6 @@ const theme = createTheme({
             },
           },
         },
-
         {
           props: { variant: "contained" },
           style: {
